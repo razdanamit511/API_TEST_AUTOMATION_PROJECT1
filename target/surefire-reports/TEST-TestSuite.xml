@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="537.206" tests="168" errors="0" skipped="0" failures="12">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\eclipse-workspace\API-Automation\Rest-Assured\Projects\PROJECT1\target\test-classes;C:\Users\user\eclipse-workspace\API-Automation\Rest-Assured\Projects\PROJECT1\target\classes;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\user\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\user\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar;C:\Users\user\.m2\repository\org\glassfish\jaxb\txw2\2.3.2\txw2-2.3.2.jar;C:\Users\user\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.8\istack-commons-runtime-3.0.8.jar;C:\Users\user\.m2\repository\org\jvnet\staxex\stax-ex\1.8.1\stax-ex-1.8.1.jar;C:\Users\user\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.16\FastInfoset-1.2.16.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\user\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\user\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\user\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\user\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\user\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\user\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\user\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\user\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\user\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\user\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\user\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\user\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\user\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\user\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire452257180646405077\surefirebooter-20240908211309569_3.jar C:\Users\user\AppData\Local\Temp\surefire452257180646405077 2024-09-08T21-13-09_357-jvmRun1 surefire-20240908211309569_1tmp surefire_0-20240908211309569_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\eclipse-workspace\API-Automation\Rest-Assured\Projects\PROJECT1\target\test-classes;C:\Users\user\eclipse-workspace\API-Automation\Rest-Assured\Projects\PROJECT1\target\classes;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\user\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\user\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar;C:\Users\user\.m2\repository\org\glassfish\jaxb\txw2\2.3.2\txw2-2.3.2.jar;C:\Users\user\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.8\istack-commons-runtime-3.0.8.jar;C:\Users\user\.m2\repository\org\jvnet\staxex\stax-ex\1.8.1\stax-ex-1.8.1.jar;C:\Users\user\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.16\FastInfoset-1.2.16.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\user\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\user\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\user\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\user\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\user\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\user\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\user\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\user\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\user\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\user\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\user\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\user\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\user\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\user\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\user\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\user\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\user\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\eclipse-workspace\API-Automation\Rest-Assured\Projects\PROJECT1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire452257180646405077\surefirebooter-20240908211309569_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="user"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\user\eclipse-workspace\API-Automation\Rest-Assured\Projects\PROJECT1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="PostUserTestMethod1[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="4.961">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+Response : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1010"
+} username :testuser1
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="PostUserTestMethod1[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.69">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+Response : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1011"
+} username :testuser2
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod1[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="1.597">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+Response : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1012"
+} username :testuser3
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod1[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="1.995">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+Response : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1013"
+} username :testuser4
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod1[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="1.687">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+Response : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1014"
+} username :testuser5
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod1[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="2.051">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+Response : {
+    "code": 200,
+    "type": "unknown",
+    "message": "1015"
+} username :testuser6
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod2[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="2.044">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod2[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.835">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod2[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="2.048">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod2[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="1.536">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod2[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="1.944">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod2[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="2.044">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod3[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="1.683">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod3[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.839">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod3[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="1.84">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod3[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="1.84">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod3[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="1.643">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod3[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="1.82">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod4[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="1.97">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod4[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.637">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod4[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="1.663">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod4[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="1.611">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod4[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="2.049">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod4[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="1.637">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod5[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="2.287">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1010"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod5[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.211">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1011"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod5[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="1.557">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1012"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod5[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="1.843">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1013"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod5[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="1.559">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1014"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod5[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="2.126">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1015"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod6[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="2.588">
+    <failure message="&#10;Expected: is a value greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.postTests.PostUserTestMethod6(postTests.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod6[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.812">
+    <failure message="&#10;Expected: is a value greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.postTests.PostUserTestMethod6(postTests.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod6[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="1.635">
+    <failure message="&#10;Expected: is a value greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.postTests.PostUserTestMethod6(postTests.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod6[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="2.057">
+    <failure message="&#10;Expected: is a value greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.postTests.PostUserTestMethod6(postTests.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod6[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="1.844">
+    <failure message="&#10;Expected: is a value greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.postTests.PostUserTestMethod6(postTests.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod6[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="2.03">
+    <failure message="&#10;Expected: is a value greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.postTests.PostUserTestMethod6(postTests.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod7[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.postTests" time="1.924">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod7[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.postTests" time="1.973">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod7[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.postTests" time="1.712">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod7[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.postTests" time="2.048">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod7[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.postTests" time="2.05">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PostUserTestMethod7[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.postTests" time="1.86">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod1[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.02">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+Username : testuser1
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod1[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.64">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+Username : testuser2
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod1[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="3.676">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+Username : testuser3
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod1[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.68">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+Username : testuser4
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod1[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.686">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+Username : testuser5
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod1[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="3.89">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+Username : testuser6
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod2[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.666">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod2[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.833">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod2[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="3.85">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod2[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.73">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod2[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.479">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod2[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="3.575">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod3[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.73">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod3[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.684">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod3[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="3.486">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod3[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.685">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod3[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.274">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod3[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="3.893">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod4[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.513">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod4[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.689">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod4[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="4.089">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod4[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.432">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod4[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.535">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod4[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="3.48">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod5[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.763">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+{
+    "id": 1010,
+    "username": "testuser1",
+    "firstName": "test1",
+    "lastName": "user1",
+    "email": "test1.user1@gmail.com",
+    "password": "user1Pass1",
+    "phone": "8978454678",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod5[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.888">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+{
+    "id": 1011,
+    "username": "testuser2",
+    "firstName": "test2",
+    "lastName": "user2",
+    "email": "test2.user2@gmail.com",
+    "password": "user1Pass2",
+    "phone": "8978454679",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod5[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="3.689">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+{
+    "id": 1012,
+    "username": "testuser3",
+    "firstName": "test3",
+    "lastName": "user3",
+    "email": "test3.user3@gmail.com",
+    "password": "user1Pass3",
+    "phone": "8978454680",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod5[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.683">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+{
+    "id": 1013,
+    "username": "testuser4",
+    "firstName": "test4",
+    "lastName": "user4",
+    "email": "test4.user4@gmail.com",
+    "password": "user1Pass4",
+    "phone": "8978454681",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod5[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.511">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+{
+    "id": 1014,
+    "username": "testuser5",
+    "firstName": "test5",
+    "lastName": "user5",
+    "email": "test5.user5@gmail.com",
+    "password": "user1Pass5",
+    "phone": "8978454682",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod5[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="3.655">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+{
+    "id": 1015,
+    "username": "testuser6",
+    "firstName": "test6",
+    "lastName": "user6",
+    "email": "test6.user6@gmail.com",
+    "password": "user1Pass6",
+    "phone": "8978454683",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod6[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.685">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod6[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.071">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod6[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="3.618">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod6[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.304">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod6[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.696">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod6[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="4.099">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod7[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.getTests" time="3.29">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod7[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.getTests" time="3.638">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod7[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.getTests" time="3.483">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod7[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.getTests" time="3.89">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod7[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.getTests" time="3.688">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="GetUserTestMethod7[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.getTests" time="3.89">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+GET URL :https://petstore.swagger.io/v2/user/{username}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod1[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.518">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod1[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="3.709">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod1[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.826">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod1[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="3.72">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod1[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="3.653">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod1[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="3.727">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod2[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.472">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod2[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="3.449">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod2[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.688">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod2[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="3.273">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod2[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="3.687">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod2[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="3.17">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod3[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.242">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod3[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="3.629">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod3[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.28">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod3[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="3.585">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod3[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="3.583">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod3[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="3.48">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod4[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.332">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod4[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="3.887">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod4[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.502">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod4[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="2.957">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod4[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="3.78">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod4[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="3.071">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod5[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.016">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1010"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod5[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="3.231">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1011"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod5[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.922">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1012"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod5[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="3.144">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1013"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod5[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="2.705">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1014"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod5[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="2.974">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1015"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod6[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.18">
+    <failure message="&#10;Expected: is a value equal to or greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value equal to or greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.putTests.PutUserTestMethod6(putTests.java:228)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod6[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="3.71">
+    <failure message="&#10;Expected: is a value equal to or greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value equal to or greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.putTests.PutUserTestMethod6(putTests.java:228)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod6[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.666">
+    <failure message="&#10;Expected: is a value equal to or greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value equal to or greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.putTests.PutUserTestMethod6(putTests.java:228)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod6[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="3.689">
+    <failure message="&#10;Expected: is a value equal to or greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value equal to or greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.putTests.PutUserTestMethod6(putTests.java:228)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod6[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="3.472">
+    <failure message="&#10;Expected: is a value equal to or greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value equal to or greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.putTests.PutUserTestMethod6(putTests.java:228)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod6[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="3.723">
+    <failure message="&#10;Expected: is a value equal to or greater than &lt;6&gt;&#10;     but: &lt;4&gt; was less than &lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is a value equal to or greater than <6>
+     but: <4> was less than <6>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at api.tests.datadriven.users.putTests.PutUserTestMethod6(putTests.java:228)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod7[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.putTests" time="3.662">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod7[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.putTests" time="2.947">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod7[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.putTests" time="3.423">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod7[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.putTests" time="3.654">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod7[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.putTests" time="3.071">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="PutUserTestMethod7[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.putTests" time="3.279">
+    <system-out><![CDATA[POST URL :https://petstore.swagger.io/v2/user
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod1[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="3.761"/>
+  <testcase name="DeleteUserTestMethod1[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="3.892"/>
+  <testcase name="DeleteUserTestMethod1[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="3.684"/>
+  <testcase name="DeleteUserTestMethod1[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="3.482"/>
+  <testcase name="DeleteUserTestMethod1[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="2.688"/>
+  <testcase name="DeleteUserTestMethod1[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="3.104"/>
+  <testcase name="DeleteUserTestMethod2[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="2.868"/>
+  <testcase name="DeleteUserTestMethod2[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="3.47"/>
+  <testcase name="DeleteUserTestMethod2[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="3.703"/>
+  <testcase name="DeleteUserTestMethod2[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="3.971"/>
+  <testcase name="DeleteUserTestMethod2[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="3.147"/>
+  <testcase name="DeleteUserTestMethod2[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="3.939"/>
+  <testcase name="DeleteUserTestMethod3[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="3.952"/>
+  <testcase name="DeleteUserTestMethod3[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="3.449"/>
+  <testcase name="DeleteUserTestMethod3[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="4.13"/>
+  <testcase name="DeleteUserTestMethod3[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="3.38"/>
+  <testcase name="DeleteUserTestMethod3[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="3.209"/>
+  <testcase name="DeleteUserTestMethod3[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="3.24"/>
+  <testcase name="DeleteUserTestMethod4[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="2.999"/>
+  <testcase name="DeleteUserTestMethod4[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="3.544"/>
+  <testcase name="DeleteUserTestMethod4[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="3.891"/>
+  <testcase name="DeleteUserTestMethod4[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="3.787"/>
+  <testcase name="DeleteUserTestMethod4[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="3.589"/>
+  <testcase name="DeleteUserTestMethod4[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="3.89"/>
+  <testcase name="DeleteUserTestMethod5[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="3.649">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser1"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod5[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="4.001">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod5[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="3.688">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser3"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod5[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="3.881">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod5[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="3.388">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser5"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod5[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="3.79">
+    <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser6"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUserTestMethod6[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="3.761"/>
+  <testcase name="DeleteUserTestMethod6[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="3.08"/>
+  <testcase name="DeleteUserTestMethod6[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="3.295"/>
+  <testcase name="DeleteUserTestMethod6[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="2.647"/>
+  <testcase name="DeleteUserTestMethod6[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="3.111"/>
+  <testcase name="DeleteUserTestMethod6[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="3.627"/>
+  <testcase name="DeleteUserTestMethod7[1010, testuser1, test1, user1, test1.user1@gmail.com, user1Pass1, 8978454678, 0](1)" classname="api.tests.datadriven.users.deleteTests" time="2.46"/>
+  <testcase name="DeleteUserTestMethod7[1011, testuser2, test2, user2, test2.user2@gmail.com, user1Pass2, 8978454679, 0](2)" classname="api.tests.datadriven.users.deleteTests" time="2.402"/>
+  <testcase name="DeleteUserTestMethod7[1012, testuser3, test3, user3, test3.user3@gmail.com, user1Pass3, 8978454680, 0](3)" classname="api.tests.datadriven.users.deleteTests" time="2.868"/>
+  <testcase name="DeleteUserTestMethod7[1013, testuser4, test4, user4, test4.user4@gmail.com, user1Pass4, 8978454681, 0](4)" classname="api.tests.datadriven.users.deleteTests" time="3.443"/>
+  <testcase name="DeleteUserTestMethod7[1014, testuser5, test5, user5, test5.user5@gmail.com, user1Pass5, 8978454682, 0](5)" classname="api.tests.datadriven.users.deleteTests" time="2.457"/>
+  <testcase name="DeleteUserTestMethod7[1015, testuser6, test6, user6, test6.user6@gmail.com, user1Pass6, 8978454683, 0](6)" classname="api.tests.datadriven.users.deleteTests" time="2.871"/>
+</testsuite>

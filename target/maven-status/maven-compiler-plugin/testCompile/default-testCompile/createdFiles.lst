@@ -1,0 +1,16 @@
+api\tests\datadriven\users\getTests.class
+api\tests\users\postTests.class
+api\tests\datadriven\users\deleteTests.class
+api\endpoints\UserEndPoints.class
+api\payload\User.class
+api\utils\DataProviders.class
+api\endpoints\Routes.class
+api\endpoints\UserEndPoints2.class
+api\utils\XLUtility.class
+api\tests\users\deleteTests.class
+api\tests\datadriven\users\postTests.class
+api\tests\datadriven\users\putTests.class
+api\tests\users\putTests.class
+api\utils\PropertyReader.class
+Listeners\TestListeners.class
+api\tests\users\getTests.class
